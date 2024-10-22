@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+        }
+
+        #output {
+            background-color: #ccc;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        button {
+            border: 0;
+            padding: 14px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+        }
+        #btn-2{
+            border: 2px solid;
+            font-size: larger;
+            padding: 8px;
+        }
+        .cards {
+            background-color: #eee;
+            border: 1px solid;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="btn">Fetch Data</button>
+        <label for="search" style="color: white;margin-left: 2vw;">Search category</label>
+        <input type="text" id="search">
+        <button id="btn-2">click here search</button>
+    </div>
+    <div id="output"></div>
+    <script src="./index4.js"></script>
+</body>
