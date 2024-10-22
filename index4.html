@@ -51,7 +51,13 @@
     <div>
         <button id="btn">Fetch Data</button>
         <label for="search" style="color: white;margin-left: 2vw;">Search category</label>
-        <input type="text" id="search">
+        <input list="searchs" name="search" id="search">
+        <datalist id="searchs">
+            <option value="men's clothing">
+            <option value="jewelery">
+            <option value="electronics">
+            <option value="women's clothing">
+        </datalist>
         <button id="btn-2">click here search</button>
     </div>
     <div id="output"></div>
